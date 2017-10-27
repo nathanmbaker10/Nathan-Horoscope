@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 </head>
 <body onload="setUpVars()">
 <center>
 
-    <h4>Pick you Birthday from the menu below!</h4>
+    <h1>Pick you Birthday from the menu below!</h1>
     <p></p>
-    <input type="text" id="nameTextBox" size="30" value="Enter your name here!">
+    Name: <input type="text" id="nameTextBox" size="30" name="Enter your name here:">
     <p></p>
     <select id="selectMonth" onchange="populateDaySelectBox()">
         <option value="0">Choose Month! --</option>
@@ -31,7 +33,11 @@
     <select id="selectDay" >
         <option value="0">Choose Day! --</option>
     </select>
-    <p><button id="submitButton" onclick="onSubmit()">Submit!</button> </p>
+    <p></p>
+    <p></p>
+    <p><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="submit" onclick="onSubmit()">
+        Submit!
+    </button>
     <div id="output"></div>
     <div id="image"></div>
 </center>
