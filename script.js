@@ -1,4 +1,4 @@
-//hi
+
 function setUpVars() {
 
     thirtyOneDays = ["January", "March", "May", "July", "August", "October", "December"];
