@@ -1,9 +1,30 @@
-#submitButton{
-    size: 40;
-    float: down;
-
+/*body{*/
+    /*background: cyan;*/
+/*}*/
+div{
+    background: cyan;
+}
+body{
+    text: cyan;
 }
 
-h1 {
-    color: ffffff;
+#image{
+    max-height: 50%%;
+    max-width: 50%;
 }
+#cornerOne {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    height: 10%%;
+    width: 10%;
+}
+
+#cornerTwo{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 10%%;
+    width: 10%;
+}
+//
