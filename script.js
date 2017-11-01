@@ -14,6 +14,14 @@ function setUpVars() {
         " toward you. There's still a lot of love directed your way. Whatever problems you may have had are just a bump in the road.",
         "You may have sniffles or a sore throat, possibly necessitating taking time off from work. This could be unwelcome, as it keeps you from going out on a date as well. " +
         "Try to keep your mind occupied with activities that don't tire you physically. And take some vitamin C!",
+        "You may have a lot of professional or personal calls to make today. emails could flood your inbox. A lot of people could vie for your attention." +
+        " Your ego will receive a much-needed boost from all the acknowledgment." +
+        " Don't be embarrassed or guilty. Everyone needs a pat on the back now and then. Relax and enjoy the spotlight!",
+        "Recent study of philosophical or spiritual matters might inspire you to express your insights creatively." +
+        " Whether you choose to write, make music, or paint pictures, you'll notice a difference in your style." +
+        " This may not last, as it's at least partially due to what's on your mind now, but make the most of it today." +
+        " You might produce quality work that surprises even you.",
+        ""
 
 
 
