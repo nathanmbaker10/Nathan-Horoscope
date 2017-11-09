@@ -1,16 +1,13 @@
 /*body{*/
     /*background: cyan;*/
 /*}*/
-div{
-    background: cyan;
-}
-body{
+
+body {
     text: cyan;
 }
-
-#image{
-    max-height: 50%%;
-    max-width: 50%;
+image.resize {
+    width: 25px;
+    height: 25px;
 }
 #cornerOne {
     position: absolute;
@@ -27,4 +24,3 @@ body{
     height: 10%%;
     width: 10%;
 }
-//
