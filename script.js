@@ -139,9 +139,12 @@ function onSubmit() {
 }
 
 function determineSign(dayValue, monthValue) {
-    var sum = monthValue * 100 + dayValue;
     if(dayValue < signDayArray[monthValue - 1]) {
-        return signNameArray[monthValue - 2]
+        if (monthValue - 2 == -1) {
+            return "Capricorn"
+        } else {
+            return signNameArray[monthValue - 2]
+        }
     } else {
         return signNameArray[monthValue - 1];
     }
